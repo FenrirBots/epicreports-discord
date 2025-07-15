@@ -82,20 +82,20 @@ public class DsMG {
         embed.setTimestamp(report.getDateTime().atZone(java.time.ZoneId.systemDefault()).toInstant());
         embed.setFooter(FOOTER, null);
 
-        embed.addField("\u200B", "\u200B", false);
+//        embed.addField("\u200B", "\u200B", false);
 
         embed.addField("🎯 " + reportedDataTitle,
                 format(report, reportedDataDescription, true), false);
 
-        embed.addField("\u200B", "\u200B", false);
+//        embed.addField("\u200B", "\u200B", false);
 
         embed.addField("🗣️ " + reporterDataTitle,
                 format(report, reporterDataDescription, false), false);
 
-        embed.addField("\u200B", "\u200B", false);
+//        embed.addField("\u200B", "\u200B", false);
 
         embed.addField("📄 " + reason, report.getReason(), false);
-        embed.addField("\u200B", "\u200B", false);
+//        embed.addField("\u200B", "\u200B", false);
 
         embed.addField("📅 " + date, report.getDate(), true);
         embed.addField("🔄 " + status, report.getProcess().toString(), true);

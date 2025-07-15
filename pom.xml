@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>teik.ers</groupId>
-    <artifactId>ErsDiscord</artifactId>
-    <version>1.0.0</version>
+    <artifactId>EpicReports-Discord</artifactId>
+    <version>1.0.1</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
